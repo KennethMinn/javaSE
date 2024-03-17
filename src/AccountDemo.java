@@ -7,6 +7,8 @@ public class AccountDemo {
         myaAcc.debit(200);
 
         hlaAcc.credit(1000);
+        hlaAcc.debit(1000);
+
         System.out.println(myaAcc.getBalance());
         System.out.println(hlaAcc.getBalance());
     }
