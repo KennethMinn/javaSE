@@ -9,12 +9,10 @@ public class InterfaceDemo {
 
         //interface ------>implementation
         Predator predator = new Hawk(); //Program to interface, not implementation
-//        Hawk hawk = new Hawk();
         predator.hunt();
 
         //interface->implementation
         Prey prey = new Rabbit(); //Program to interface, not implementation
-//        Rabbit rabbit = new Rabbit();
         prey.flee();
     }
 }
