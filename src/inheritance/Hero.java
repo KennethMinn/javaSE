@@ -8,6 +8,7 @@ public class Hero extends Person {
         this.power = power;
     }
 
+    @Override
     public String toString() {
         return super.toString() + this.power;
     }
