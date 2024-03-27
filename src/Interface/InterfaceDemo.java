@@ -7,12 +7,14 @@ public class InterfaceDemo {
         fish.flee();
         fish.hunt();
 
-        Predator predator = new Hawk();
-        Hawk hawk = new Hawk();
-        hawk.hunt();
+        //interface ------>implementation
+        Predator predator = new Hawk(); //Program to interface, not implementation
+//        Hawk hawk = new Hawk();
+        predator.hunt();
 
-        Prey prey = new Rabbit();
-        Rabbit rabbit = new Rabbit();
-        rabbit.flee();
+        //interface->implementation
+        Prey prey = new Rabbit(); //Program to interface, not implementation
+//        Rabbit rabbit = new Rabbit();
+        prey.flee();
     }
 }
