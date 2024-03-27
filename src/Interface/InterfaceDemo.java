@@ -3,9 +3,11 @@ package Interface;
 public class InterfaceDemo {
     public static void main(String[] args) {
 
-        Fish fish = new Fish();
-        fish.flee();
-        fish.hunt();
+        Predator predator_fish = new Fish();
+        predator_fish.hunt();
+
+        Prey prey_fish = new Fish();
+        prey_fish.flee();
 
         //interface ------>implementation
         Predator predator = new Hawk(); //Program to interface, not implementation
