@@ -1,0 +1,18 @@
+single programming
+multi programming -> concurrent, parallel
+
+1 -> 2 -> 3 = concurrent (1 core)
+1 & 2 & 3 = parallel (multi core)
+
+- process -> a programming that is running on memory
+- thread -> things that are inside of process (1 process maybe contains 4 or 5 or 8 threads)
+- threads are independent
+
+concurrent
+
+- scheduling (running a process after a process)
+- interleave , switching (cpu usage for a process after a process (stopping a idle process to run a another process))
+
+parallel
+
+- process -> threads
