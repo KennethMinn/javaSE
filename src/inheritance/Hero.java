@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Hero extends Person {
-    //super -> obj instance of Person
+    //super -> obj instance of Person or this keyword of Person
     //super() -> Person constructor
 
     String power;
