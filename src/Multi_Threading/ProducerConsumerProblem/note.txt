@@ -1,0 +1,9 @@
+ProducerConsumerProblem -> thread that can only consume after a production
+
+
+thread -> downloading image -> producer
+another thread -> processing image (must wait until the image is downloaded) -> consumer
+
+wait() -> waiting or sleeping the thread
+notify() -> notifying a specific sleeping or waiting thread
+notifyAll() -> notifying all sleeping or waiting thread

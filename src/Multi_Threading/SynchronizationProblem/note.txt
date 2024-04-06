@@ -1,0 +1,19 @@
+problem
+
+-atomic operation finishes with 1 line
+
+.value++ -> gotta run 3 lines cuz of multi-threading (not atomic operation)
+
+value = value + 1;
+
+ILoad value
+Inc value
+IStore value
+
+data = 0
+
+//overriding each other
+value = 1
+thread 1 (override)
+thread 2 (override)
+thread 3 (override)
