@@ -1,6 +1,5 @@
 ProducerConsumerProblem -> thread that can only consume after a production
 
-
 thread -> downloading image -> producer
 another thread -> processing image (must wait until the image is downloaded) -> consumer
 

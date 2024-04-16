@@ -1,0 +1,37 @@
+##Thread life cycle
+#Primitive - not modern
+
+New (start) -> Runnable (ready) -> Running (read IO) -> Dead
+
+//go back to runnable state when the thread is notify/notifyAll(), resume() or when sleep time is up
+
+New (start) -> Runnable (ready) <- Running (blocked/waiting or sleeping)
+
+synchronize limitation -> one thread at a time
+
+#Semaphore
+
+value = 1
+
+lock(
+
+)
+value--
+
+another lock (
+ if value is 0 -> block
+)
+
+#SEMAPHORE EXAMPLE
+
+toilet = [ 3 rooms]
+acquire() -> pass
+2 rooms left
+acquire() -> pass
+1 room left
+acquire() -> pass
+0 room left
+acquire() -> block -> wait
+
+acquire() -> value++
+1 room

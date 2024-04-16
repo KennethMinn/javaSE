@@ -13,8 +13,8 @@ enum Planet {
 }
 
 enum Planet2 {
-    EARTH(1),
-    JUPITER(2);
+    EARTH(1),//constructor
+    JUPITER(2); //constructor
     int number;
 
     Planet2(int number) {

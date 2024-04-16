@@ -6,7 +6,8 @@ public class Polymorphism {
             h.work();
         }
     }
-    
+
+    // int[] = {1,2} === int[] = new int[]{1,2}
     public static void main(String[] args) {
         Human[] humans = new Human[]{
                 new Doctor(),

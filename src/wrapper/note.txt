@@ -1,0 +1,14 @@
+Integer i = 10;
+-Integer is the instance of obj -> wrapper
+-to keep primitive as obj
+-primitive -> wrapper -> obj
+
+int  Integer
+byte Byte
+long Long
+char Character
+
+#uscase
+ArrayList<Integer> list = new ArrayList<Integer>();
+list.add(1);
+list.add(2)
