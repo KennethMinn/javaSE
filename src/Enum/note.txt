@@ -1,0 +1,4 @@
+#Enum
+
+-ordered listing of items in a collection
+-grouping of constants that behave similarly to objects
