@@ -1,0 +1,4 @@
+#2D ArrayList
+
+-a dynamic list of lists
+-can change the size of lists during runtime

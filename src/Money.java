@@ -11,7 +11,7 @@ public class Money {
         return new Money(this.value + b.value);
     }
 
-    //Overwriting built-in toString Method to see the log
+    //Overwriting built-in toString  Method to see the log
     public String toString() {
         return "toString " + this.value;
     }
