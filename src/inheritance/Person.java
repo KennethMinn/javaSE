@@ -9,7 +9,6 @@ public abstract class Person {
         this.age = age;
     }
 
-    @Override
     public String toString() {
         return this.name + "\n" + this.age + "\n";
     }
