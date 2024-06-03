@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Demo {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         try {
-            Scanner scanner = new Scanner(System.in);
-
             System.out.println("Enter a whole number to divide : ");
             int x = scanner.nextInt();
 
@@ -22,6 +21,7 @@ public class Demo {
             System.out.println("error");
         } finally {
             System.out.println("this will always print");
+            scanner.close();
         }
     }
 }
