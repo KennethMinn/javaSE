@@ -15,7 +15,7 @@ public class Demo {
             int z = x / y;
         } catch (ArithmeticException e) {
             //execution will jump here if it's related to ArithmeticException
-            System.out.println("U can't divide by zero" + e);
+            System.out.println("U can't divide by zero " + e);
         } catch (Exception e) {
             //this will catch all exceptions
             System.out.println("error");

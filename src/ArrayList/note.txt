@@ -2,4 +2,4 @@
 
 -a resizeable array.
 -Elements can be added and removed after compilation phase
--store reference data types`
+-store reference data types - Wrapper - use Integer instead of int

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Demo {
     public static void main(String[] args) {
         //ArrayList<Wrapper>
-        ArrayList<String> foods = new ArrayList<String>();
+        ArrayList<String> foods = new ArrayList<>();
 
         foods.add("pizza");
         foods.add("noodle");
