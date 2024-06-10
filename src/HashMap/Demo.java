@@ -10,7 +10,7 @@ public class Demo {
         empIds.put("mtk", 18);
         empIds.put("st", 19);
 
-        System.out.println(empIds); // {mtk = 18 , st = 19}
+        System.out.println(empIds); // { st=19, mtk=18 }
         System.out.println(empIds.get("mtk"));
         System.out.println(empIds.containsKey("mtk"));
         System.out.println(empIds.containsValue(18));
